@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,
+body{
+    background-color: rgb(244, 244, 250);
+}
+
+.grid{
+    display: grid;
+    
+}
+
+.cell {
+    width: 30px;
+    height: 30px;
+    background-color: lightblue;
+}
+
+.alive {
+    background-color: white; /* Cellule vivante */
+}
+.dead {
+    background-color: black; /* Cellule morte */
+}
